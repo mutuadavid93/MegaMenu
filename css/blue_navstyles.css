@@ -140,3 +140,24 @@ body {
 .navbar-inverse .navbar-nav>li>a {
     color: #FFFFFF;
 }
+
+/* Flags Styles */
+.flags img {
+    display: block;
+    width: 34px;
+}
+
+#flags-id {
+    margin: 5px 0;
+}
+
+.flags a small {
+    font-size: 0.65em;
+    text-align: center;
+    padding-left: 5px;
+    color: #0C59CF;
+}
+
+.flags a:hover {
+    color: #E50A0D;
+}

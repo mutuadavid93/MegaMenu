@@ -16,5 +16,14 @@
                         .find('a').first().removeClass('redbg');
             });
         });
+        
+        $('#flags-id .flags a img').hover(function () {
+            $(this).css({
+                "border" : "1px solid #E50A0D",
+                "padding" : "1px"
+            });
+        },function () {
+            $(this).css("border", "0");
+        });
     });
 })();
